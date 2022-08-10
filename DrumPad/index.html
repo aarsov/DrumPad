@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="drumpad-logo.jpg">
+  <link rel="stylesheet" href = "style.css">
+  <title>DrumPad</title>
+</head>
+<body>
+  <h1>DrumPad</h1>
+  <div id = "container">
+    <div id = "first">
+      <div class = "grid-container"> 
+        <div class="grid-item">
+          <button type = "button" id = "b1" class = "small_btn" onclick="play1()">Crash</button>
+          <audio id="audio1" src="sounds/Crash.wav"></audio>
+        </div>
+        <div class="grid-item">
+          <button type = "button" id = "b2" class = "small_btn" onclick="play2()">Snare</button>
+          <audio id="audio2" src="sounds/Snare.wav"></audio> 
+        </div>
+        <div class="grid-item">
+          <button type = "button" id = "b3" class = "small_btn" onclick="play3()">Crash 2</button>
+          <audio id="audio3" src="sounds/Crash2.wav"></audio>
+        </div>
+        <div class="grid-item">
+          <button type = "button" id = "b4" class = "small_btn" onclick="play4()">Hi-Tom</button>
+          <audio id="audio4" src="sounds/Hi-Tom.wav"></audio>
+        </div>
+        <div class="grid-item">
+          <button type = "button" id = "b5" class = "small_btn" onclick="play5()">Mid-Tom</button>
+          <audio id="audio5" src="sounds/Mid-Tom.wav"></audio>
+        </div>
+        <div class="grid-item">
+          <button type = "button" id = "b6" class = "small_btn" onclick="play6()">Lo-Tom</button>
+          <audio id="audio6" src="sounds/Lo-Tom.wav"></audio>
+        </div>
+        <div class="grid-item">
+          <button type = "button" id = "b7" class = "small_btn" onclick="play7()">Kick</button>
+          <audio id="audio7" src="sounds/Kick Drum.wav"></audio>
+        </div>
+        <div class="grid-item">
+          <button type = "button" id = "b8" class = "small_btn" onclick="play8()">Floor Tom</button>
+          <audio id="audio8" src="sounds/Floor.wav"></audio>
+        </div>
+        <div class="grid-item">
+          <button type = "button" id = "b9" class = "small_btn" onclick="play9()">Splash</button>
+          <audio id="audio9" src="sounds/Splash.wav"></audio>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

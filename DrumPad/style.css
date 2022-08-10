@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    font-size: 1rem;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80c8d0 50%, #bdfff3 100%);
+    
+
+
+
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 65pt;
+    top: 40px;
+
+}
+
+#container {
+    position: relative;
+    display: wrap;
+    width: 100%;
+    bottom: -20%;
+    
+    
+}
+
+#first {
+   
+   justify-content: center;
+   
+   
+}
+
+.grid_container {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px;
+    background-color: green;
+    padding: 10px;
+    
+}
+
+.small_btn {
+    width: 120px;
+    height: 120px;
+    color: rgb(230, 255, 67);
+    border-radius: 10px;
+    border: none;
+    background: rgba(122,122,125,1);
+    cursor: pointer; 
+   
+}
+.small_btn:active{
+    background-color: #615c5c;
+    color: rgb(0, 255, 72);
+    
+  
+}
+
+
+
+
+
+
+
+#second {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 90vh;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "button1 button2 button3"
+                         "button4 button5 button6";
+    grid-gap: 20px;
+    justify-content: center;
+    
+    
+}
+
+.grid-item:nth-child(1) {
+    grid-area: button1;
+}
+
+.grid-item:nth-child(2) {
+    grid-area: button2;
+}
+
+.grid-item:nth-child(3) {
+    grid-area: button3;
+}
+
+.grid-item:nth-child(4) {
+    grid-area: button4;
+}
+
+.grid-item:nth-child(5) {
+    grid-area: button5;
+}
